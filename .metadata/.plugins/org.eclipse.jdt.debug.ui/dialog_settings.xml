@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GoogleHomePageVerify/src&amp;lt;{GoogleHomePageVerify.java[GoogleHomePageVerify&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/C:\/Users\/LENOVO\/eclipse-workspace\/W3SchoolsVerify\/target\/dependency\/testng-7.4.0.jar&amp;lt;org.testng(Converter.class[Converter&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;{GoogleHomePageVerification.java[GoogleHomePageVerification&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Testng/C:\/Users\/LENOVO\/Downloads\/testng-6.7.jar&amp;lt;org.testng(Converter.class[Converter&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="391"/>
+			<item key="DIALOG_Y_ORIGIN" value="39"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

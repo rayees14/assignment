@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoogleW3SchoolsSuite">
+    <test name="GoogleTest">
+        <classes>
+            <class name="test.ProjectMaven.GoogleTest"/>
+        </classes>
+    </test>
+    <test name="W3SchoolsTest">
+        <classes>
+            <class name="test.ProjectMaven.W3SchoolsTest"/>
+        </classes>
+    </test>
+</suite>

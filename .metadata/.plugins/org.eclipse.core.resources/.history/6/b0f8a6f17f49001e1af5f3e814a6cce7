@@ -1,0 +1,33 @@
+public class RoadToll {
+    private String typeOfVehicle;
+    private int numberOfTires;
+
+    public RoadToll(String typeOfVehicle, int numberOfTires) {
+        this.typeOfVehicle = typeOfVehicle;
+        this.numberOfTires = numberOfTires;
+    }
+
+    public int calculateToll() {
+        if (numberOfTires == 2) {
+            return 0;
+        } else if (numberOfTires == 4) {
+            return 50;
+        } else {
+            return 100;
+        }
+    }
+
+    public static void main(String[] args) {
+        RoadToll car = new RoadToll("Car", 4);
+        RoadToll bike = new RoadToll("Bike", 2);
+        RoadToll truck = new RoadToll("Truck", 6);
+
+        double carToll = car.calculateToll();
+        double bikeToll = bike.calculateToll();
+        double truckToll = truck.calculateToll();
+
+        System.out.println("Toll for Car: Rs. " + carToll);
+        System.out.println("Toll for Bike: Rs. " + bikeToll);
+        System.out.println("Toll for Truck: Rs. " + truckToll);
+    }
+}

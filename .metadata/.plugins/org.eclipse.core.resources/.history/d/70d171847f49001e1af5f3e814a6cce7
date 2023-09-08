@@ -1,0 +1,37 @@
+public class RoadToll {
+    private String typeOfVehicle;
+    private int numberOfTires;
+
+    // Constructor to initialize member variables
+    public RoadToll(String typeOfVehicle, int numberOfTires) {
+        this.typeOfVehicle = typeOfVehicle;
+        this.numberOfTires = numberOfTires;
+    }
+
+    // Method to calculate Road Toll
+    public double calculateToll() {
+        if (numberOfTires == 2) {
+            return 0.00;
+        } else if (numberOfTires == 4) {
+            return 50.00;
+        } else {
+            return 100.00;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Create an object of RoadToll
+        RoadToll vehicle1 = new RoadToll("Car", 4);
+        RoadToll vehicle2 = new RoadToll("Truck", 6);
+
+        // Calculate and display the toll for the first vehicle
+        System.out.println("Type of Vehicle: " + vehicle1.typeOfVehicle);
+        System.out.println("Number of Tires: " + vehicle1.numberOfTires);
+        System.out.println("Toll Amount: Rs. " + vehicle1.calculateToll());
+
+        // Calculate and display the toll for the second vehicle
+        System.out.println("\nType of Vehicle: " + vehicle2.typeOfVehicle);
+        System.out.println("Number of Tires: " + vehicle2.numberOfTires);
+        System.out.println("Toll Amount: Rs. " + vehicle2.calculateToll());
+    }
+}

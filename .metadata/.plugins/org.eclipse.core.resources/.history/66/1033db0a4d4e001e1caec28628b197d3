@@ -1,0 +1,42 @@
+package com;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class TestngReportGeneration {
+    private static ExtentReports extent;
+    private static ExtentTest test;
+
+    @BeforeSuite
+    public void setUp() {
+        // Initialize ExtentReports and create an HTML report file
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("test-output/extent-report.html");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+    }
+
+    @Test
+    public void myTestMethod() {
+        // Create a new test in the report
+        test = extent.createTest("My Test Method");
+
+        // Your test logic here
+        test.log(Status.INFO, "Test step 1");
+        // ...
+
+        // Mark the test as pass or fail
+        test.pass("Test Passed");
+    }
+
+    @AfterSuite
+    public void tearDown() {
+        // Flush the report to generate it
+        extent.flush();
+    }
+}

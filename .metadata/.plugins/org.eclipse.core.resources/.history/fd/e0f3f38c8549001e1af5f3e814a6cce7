@@ -1,0 +1,36 @@
+package java.lang.*;
+ 
+import java.util.*;
+
+public class RoadToll {
+    String TypeOfVehicle;
+    int NumberOfTires;
+
+    public RoadToll(String TypeOfVehicle, int NumberOfTires) {
+        this.TypeOfVehicle = TypeOfVehicle;
+        this.NumberOfTires = NumberOfTires;
+    }
+
+    public double calculateToll() {
+        if (NumberOfTires == 2) {
+            return 0.00;
+        } else if (NumberOfTires == 4) {
+            return 50.00;
+        } else if (NumberOfTires > 4) {
+            return 100.00;
+        }
+        else {
+        	return 25.00;
+        }
+    }
+
+    public static void main(String[] args) {
+       
+        RoadToll vehicle = new RoadToll("Auto", 3);
+
+        double vehicleToll = vehicle.calculateToll();
+
+        System.out.println("Toll for Vehicle: Rs. " + vehicleToll);
+        
+    }
+}

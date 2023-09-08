@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T14:44:05Z" name="Surefire suite" finished-at="2023-09-08T14:44:34Z" duration-ms="28884">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T14:44:05Z" name="Surefire test" finished-at="2023-09-08T14:44:34Z" duration-ms="28884">
+      <class name="test.ProjectMaven.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProjectMaven.GoogleTest@70beb599]" started-at="2023-09-08T20:14:05Z" name="setUp" finished-at="2023-09-08T20:14:12Z" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProjectMaven.W3SchoolsTest@4e41089d]" started-at="2023-09-08T20:14:12Z" name="setUp" finished-at="2023-09-08T20:14:18Z" duration-ms="6494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleLogo()[pri:1, instance:test.ProjectMaven.GoogleTest@70beb599]" started-at="2023-09-08T20:14:18Z" name="testGoogleLogo" finished-at="2023-09-08T20:14:18Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleLogo -->
+        <test-method signature="testSearchBox()[pri:2, instance:test.ProjectMaven.GoogleTest@70beb599]" started-at="2023-09-08T20:14:18Z" name="testSearchBox" finished-at="2023-09-08T20:14:18Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBox -->
+        <test-method signature="testButtonNames()[pri:3, instance:test.ProjectMaven.GoogleTest@70beb599]" started-at="2023-09-08T20:14:18Z" name="testButtonNames" finished-at="2023-09-08T20:14:18Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButtonNames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ProjectMaven.GoogleTest@70beb599]" started-at="2023-09-08T20:14:32Z" name="tearDown" finished-at="2023-09-08T20:14:33Z" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ProjectMaven.W3SchoolsTest@4e41089d]" started-at="2023-09-08T20:14:33Z" name="tearDown" finished-at="2023-09-08T20:14:34Z" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ProjectMaven.GoogleTest -->
+      <class name="test.ProjectMaven.W3SchoolsTest">
+        <test-method signature="searchForW3Schools()[pri:1, instance:test.ProjectMaven.W3SchoolsTest@4e41089d]" started-at="2023-09-08T20:14:18Z" name="searchForW3Schools" finished-at="2023-09-08T20:14:32Z" duration-ms="13148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForW3Schools -->
+      </class> <!-- test.ProjectMaven.W3SchoolsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
