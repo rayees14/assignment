@@ -1,0 +1,128 @@
+{
+	"id": "8fcf299d-b128-4ee2-9ddd-8163013acc27",
+	"name": "RestCountries_Currency_Tests",
+	"timestamp": "2023-09-23T12:46:14.515Z",
+	"collection_id": "29490483-e7cf025a-f260-4dcd-8efe-356530bfc656",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 18,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-23T12:46:06.241Z",
+	"totalFail": 18,
+	"results": [
+		{
+			"id": "dea2a15b-22c9-4886-ad39-080f4550fec3",
+			"name": "Country by Currency",
+			"url": "https://restcountries.com/v3.1/currency/xyz",
+			"time": 294,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is as expected": false,
+				"Status code is 200 OK": false,
+				"Response is JSON": true,
+				"Response contains data": true,
+				"Status code is 404 Not Found for an invalid endpoint": true,
+				"Status code is 405 Method Not Allowed for an invalid request method": false
+			},
+			"testPassFailCounts": {
+				"Status code is as expected": {
+					"pass": 0,
+					"fail": 6
+				},
+				"Status code is 200 OK": {
+					"pass": 4,
+					"fail": 2
+				},
+				"Response is JSON": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Response contains data": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Status code is 404 Not Found for an invalid endpoint": {
+					"pass": 2,
+					"fail": 4
+				},
+				"Status code is 405 Method Not Allowed for an invalid request method": {
+					"pass": 0,
+					"fail": 6
+				}
+			},
+			"times": [
+				3946,
+				1777,
+				797,
+				259,
+				204,
+				294
+			],
+			"allTests": [
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": true,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": false,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				},
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": true,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": false,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				},
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": true,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": false,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				},
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": true,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": false,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				},
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": false,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": true,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				},
+				{
+					"Status code is as expected": false,
+					"Status code is 200 OK": false,
+					"Response is JSON": true,
+					"Response contains data": true,
+					"Status code is 404 Not Found for an invalid endpoint": true,
+					"Status code is 405 Method Not Allowed for an invalid request method": false
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 7277,
+	"collection": {
+		"requests": [
+			{
+				"id": "dea2a15b-22c9-4886-ad39-080f4550fec3",
+				"method": "GET"
+			}
+		]
+	}
+}

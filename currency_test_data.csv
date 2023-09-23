@@ -1,0 +1,7 @@
+currency,expected_status_code
+inr,200
+usd,200
+eur,200
+gbp,200
+abc,404
+xyz,405
